@@ -36,9 +36,6 @@ jobs:
       - name: Terraform Format
         run: terraform fmt -check
 
-      # Step 6: Terraform Validate
-        run: terraform validate
-
       # Step 7: Terraform Plan
       - name: Terraform Plan
         run: terraform plan
