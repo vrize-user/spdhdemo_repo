@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "src_bucket" {
-  bucket = "spdh-src-bucket1"
+  bucket = "spdh-src-bucket123"
 
   tags = {
     Name        = "Source Bucket"
@@ -12,7 +12,7 @@ resource "aws_s3_bucket" "src_bucket" {
 }
 
 resource "aws_s3_bucket" "trgt_bucket" {
-  bucket = "spdh-trgt-bucket2"
+  bucket = "spdh-trgt-bucket345"
 
   tags = {
     Name        = "Target Bucket"
